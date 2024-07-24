@@ -1,7 +1,7 @@
 # Smash the Bees Game
 
 ## Overview
-"Smash the Bees" is a simple and engaging game where the player controls a Lego character to catch moving bees. The game features a title screen, a play screen, and states for winning, losing, and viewing the leaderboard. The games has a 10 second timer in which you need to catch atleast 1 bee to win. 
+"Smash the Bees" is developed in C and runs on a Game Boy Advance (GBA) emulator. The game is an interactive graphical application that provides a fun and engaging experience where the player controls a Lego character to catch moving bees. The game features a title screen, a play screen, and states for winning, losing, and viewing the leaderboard. The games has a 10 second timer in which you need to catch atleast 1 bee to win. 
 
 ## Controls
 - **UP Button:** Move the player up
