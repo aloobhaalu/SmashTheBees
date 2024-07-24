@@ -11,7 +11,7 @@
 - **START Button:** Begin the game from the title screen, leaderboard from win/lose screens, or play again from the leaderboard
 - **SELECT Button:** Return to the title screen from any state in the game
 ## Game States
-- **Start State:** Display the title screen. A bee moves [extra credit part 1] around the upper half of the screen (because i wanted the bee to be in the sky :)). Press START to begin the game.
+- **Start State:** Display the title screen. A bee moves around the upper half of the screen (because i wanted the bee to be in the sky :)). Press START to begin the game.
 - **Play State:** Control the player to catch bees. The game displays the player's score and a timer in the bottom. If the timer reaches zero, the game ends.
 - **Win State:** Display a win screen if the player catches bees before the timer runs out. Press SELECT to go to start or START to view the leaderboard.
 - **Lose State:** Display a lose screen if the timer runs out before catching any bees. Press SELECT to go to start or START to view the leaderboard.
@@ -21,6 +21,3 @@
 - **main.c:** Contains the main loop and state transitions.
 - **gba.h / gba.c:** Contains GBA-specific definitions and functions.
 - **images/:** Contains the image data for the title screen, background, Lego character, and bees.
-
-## Credits
-This game was developed as part of CS2110 at Georgia Tech. Special thanks to the course instructor and the TA's for their support and feedback.
